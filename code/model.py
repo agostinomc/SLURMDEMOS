@@ -1,6 +1,3 @@
-"""Implementation of the PointNet (Qi, 2017). Code is adapted from Nikita Karaev
-https://towardsdatascience.com/deep-learning-on-point-clouds-implementing-pointnet-in-google-colab-1fd65cd3a263."""
-
 import numpy as np
 import torch
 import torch.nn as nn
