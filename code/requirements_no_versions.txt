@@ -1,0 +1,16 @@
+laspy
+matplotlib
+numpy
+open3d
+pandas
+plotly
+scikit-learn
+scipy
+seaborn
+torch
+torchvision
+tqdm
+pyntcloud
+tensorboard
+deepspeed
+

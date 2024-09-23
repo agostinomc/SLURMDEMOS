@@ -1,0 +1,15 @@
+Bootstrap: docker
+From: python:3.8
+
+%files
+    ../requirements.txt requirements.txt
+
+%post
+    #export DEBIAN_FRONTEND=noninteractive 
+    #apt update 
+    #apt upgrade -y
+
+
+    pip install --root-user-action=ignore -r requirements.txt
+
+    pip install ipyparallel notebook jupyterhub==4.1.5 jupyterlab
