@@ -8,10 +8,6 @@
 #SBATCH --error=./slurm_files/slurm-%x-%j.err      # where to write slurm error
 
 
-export PREFERRED_SOFTWARE_STACK=nhr-lmod
-source /sw/etc/profile/profile.sh
-
-
 module load miniconda3
 module load cuda
 source activate dl-gpu # Or whatever you called your environment.
